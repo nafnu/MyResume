@@ -1,25 +1,9 @@
-# Continuous Assessment CA3 Front-end Web Development
-## Student: Nathalie Flores - 
-## Lecturer: Erika Volodko 
+# Continuous Assessment CA2 - Interactive Media Design IMDEH4001: 2024-25
+## Student: Nathalie Flores - X00218815
+## Lecturer: Ben Walsh
 
-## Assignment Description  
-Choose the tools of your interest to design, create and deploy an interactive web resume that  incorporates:<br>
-[40%] Clean, intuitive and responsive user interface that follows design standards. <br>
-[30%] Unique interactive navigation and elements. <br>
-[10%] Coding standards that include formatting, naming conventions and commenting.<br>
-[20%] The finished web resume should be accompanied by a README.md file that documents your development process, wireframe sketches, testing and describes each of the web libraries and frameworks used. 
-<br>The link to your website should be included.<br>
-
-## Additional Information   
-• This project is an individual project and you have all the freedom to work on the design and structure. <br>
-• The web resume should follow an overallthemeandhaveaconsistentlayout.Yourdesignshouldbe well thought out and wireframed. <br>
-• Use of fonts, colour schemes and element hierarchy should be incorporated. <br>
-• The web resume must be easy to navigate. <br>
-• You must use a CSS framework of your choice or Bootstrap. <br>
-• The design layout must be original and the use of templates won’t be accepted. <br>
-• The web resume should be interactive by using JavaScript to update your elements. <br>
-• The web resume should use animations where appropriate. <br>
-• The project should be deployed online using GitHub pages or a hosting service of your choice. <br>
+## Overview
+This second CA, it is required to build an interactive portfolio website using Bootstrap.
 
 ## Running the Project
 
@@ -39,10 +23,10 @@ I added in basic styles to edit the body, header, and footer such as font family
 A top or bottom navigation bar allows items in the center to carry more visual weight than all items on the side of the fold, in fact, it conserves more vertical page space than left navigation. I decided to use horizontal navigation at the bottom because of my first image on the home page - my items in the center, descending a mountain, it goes with the flow of the idea from top to bottom visualizing.
 
 We can divide the site into 4 small parts:
-1. Menu - Home site
-2. Background animation - About site
-3. Timeline and Progress Bar (Bootstrap) - Resumen site
-4. Cards - Contact site
+1. 
+2. 
+3. 
+4. 
 
 #### Libraries and Frameworks used
 • Bootstrap 
@@ -61,8 +45,6 @@ My second big problem was the navigation bar, my connections with Bootstrap were
 ### References and adaptation explanations
 * Simple CSS Tutorial. Available at: https://www.w3schools.com/csS/default.asp (Accessed: Apr 17, 2021).
 This was the main motor of my project. I did almost all the tutorials, from refresh the learn in class into real practice coding to advanced level. 
-* CSS Only Image Distortion Hover Effects. Available at: https://www.youtube.com/watch?v=F_h4Bm9iu50 (Accessed:  Apr 11, 2021).
-This piece of code I used to make images change when they have hovered over.
 * Colour Schema. Available at: https://mycolor.space/?hex=%23CC016B&sub=1 (Accessed: Apr 14, 2021).
 I used this link for colour reference.
 * Simple Text Animation Just By Using HTML & CSS. Available at: https://www.youtube.com/watch?v=Syg_9iB1vco (Accessed: Apr 11, 2021).

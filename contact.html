@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>Resume Nathalie Flores </title>
+  <meta content="CV Resume using HTML, CSS and Bootstrap" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap - Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <!-- Navigation Panel -->
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="index.html/#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="portfolio.html"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="contact.html"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <Section class="description">
+      <!-- bg design -->
+      <div class="cotainer">
+          <div class="area">
+            <p class="aboutMe aria-label">Resume</p>
+          </div>
+         
+      </div>
+  </Section><!-- /Hero Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact me </h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            
+                  <!-- Map -->
+            <div id="map" style="width: 100%; height: 300px;"></div>
+            <script>
+              function initMap() {
+                const dublin = { lat: 53.349805, lng: -6.26031 }; // Dublin coordinates
+                const map = new google.maps.Map(document.getElementById("map"), {
+                  zoom: 12,
+                  center: dublin,
+                });
+                new google.maps.Marker({
+                  position: dublin,
+                  map: map,
+                  title: "Dublin",
+                });
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdWhbwuZtHbpZAmc-FzmLpqpETnrBTH7g&callback=initMap" async defer></script>
+          </div>
+          <div class="col-lg-8">
+              <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #008296; line-height: 1.6; margin-top: 30px; margin-left: 30px;">
+                I live here in Dublin, Ireland! 🇮🇪😊 
+                <Br></Br>               
+                Have questions or need assistance choosing the perfect network?  I'd love to hear from you! 💬
+                <br><br>
+                Email me at <a href="mailto:nafnuster@gmail.com" style="color: #555555;">nafnuster@gmail.com</a> 📧 and I'll get back to you promptly! ⏳
+                <br><br>
+                Whether you need product recommendations, assistance with an order 🛠️, or just want to learn more about what I do, I'm here to help! 🪄
+                <br><br>
+
+              </p>
+            <!-- Download CV Button -->
+            <a  style="margin-left: 30px;" href="https://drive.google.com/file/d/1Zw_wUiJIyFxp2C22aykfAZ1XrMpV-XSr/view?usp=sharing" class="btn btn-primary" download="My_CV">
+              Download CV
+            </a>
+
+            <!-- Contact form -->
+            <a  style="margin-left: 50px;" class="btn btn-secondary">
+              Let's chat!
+            </a>
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+
+  
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Let's connect</h3>
+      <p>nafnuster@gmail.com </p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://twitter.com/nafnuster?s=09"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com/Nafnu"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/nafnu/"><i class="bi bi-instagram"></i></a>
+        <a href="https://join.skype.com/invite/DhgfPg3y5Teg"><i class="bi bi-skype"></i></a>
+        <a href="https://www.linkedin.com/in/nathaliefloresn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Nathalie Flores</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
