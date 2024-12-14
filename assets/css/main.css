@@ -1162,6 +1162,42 @@ contactme .info-item+.info-item {
 }
 
 
+contactB .info-item+.info-item {
+  margin-top: 40px;
+}
+
+.contactB .info-item i {
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.contactB .info-item h3 {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contactB .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.contactB .info-item:hover i {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -1625,4 +1661,138 @@ transform: translate(0, -100%);
   border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #1b80df #1b80df;
   box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
 } transform: skew(0, -20deg);
+}
+
+/*--------------------------------------------------------------
+# Skill Section Section
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.list-unstyled li {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.content h2 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+
+
+.float-text-menu {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+
+  li {
+
+    a {
+      display: flex;
+      padding: 6px;
+      color: white;
+      font-family: Lato, sans-serif;
+      text-decoration: none;
+      overflow: hidden;
+
+      span {
+        position: relative;
+        transition: 0.3s;
+
+        &::before {
+          position: absolute;
+          content: attr(data-text);
+          transform: translateY(130%);
+        }
+      }
+
+      &:hover {
+        span {
+          transform: translateY(-130%);
+        }
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact Section Section
+--------------------------------------------------------------*/
+
+.one {
+  background: #ececea;
+  position:relative;
+  padding: 30vh 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+0% { transform: translate3d(0, 100%, 0); }
+40%, 60% { transform: translate3d(0, 50%, 0); }
+100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+0% { transform: translate3d(0, -100%, 0); }
+100% { transform: translate3d(0, 0, 0); }
+}
+
+@-webkit-keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@-webkit-keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+display: block;
+color: #222;
+font-family: Roboto, Arial, sans-serif;
+height: 90vmin;
+left: 50%;
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 90vmin;
+}
+.animated-title > div {
+height: 50%;
+overflow: hidden;
+position: absolute;
+width: 100%;
+}
+.animated-title > div div {
+font-size: 6vmin;
+padding: 2vmin 0;
+position: absolute;
+}
+.animated-title > div div span {
+display: block;
+}
+.animated-title > div.text-top {
+border-bottom: 1vmin solid rgb(0, 147, 211);
+top: 0;
+}
+.animated-title > div.text-top div {
+animation: showTopText 1s;
+animation-delay: 0.5s;
+animation-fill-mode: forwards;
+bottom: 0;
+transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+color: #CC016B;
+}
+.animated-title > div.text-bottom {
+bottom: 0;
+}
+.animated-title > div.text-bottom div {
+animation: showBottomText 0.5s;
+animation-delay: 1.75s;
+animation-fill-mode: forwards;
+top: 0;
+transform: translate(0, -100%);
 }

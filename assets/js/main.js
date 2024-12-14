@@ -218,5 +218,70 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+  const introText = [
+    "I'm passionate about IT and love taking on new challenges.",
+    "I bring a unique blend of technical knowledge and problem-solving skills to the tech industry.",
+    "Over my nine-year career, I've consistently delivered results through hard work and a growth mindset."
+  ];
+
+  const introElement = document.getElementById('dynamic-intro');
+  let currentTextIndex = 0;
+
+  function typeText() {
+    if (currentTextIndex < introText.length) {
+      const text = introText[currentTextIndex];
+      introElement.textContent = '';
+
+      let i = 0;
+      const interval = setInterval(() => {
+        if (i < text.length) {
+          introElement.textContent += text.charAt(i);
+          i++;
+        } else {
+          clearInterval(interval);
+          setTimeout(() => {
+            currentTextIndex++;
+            typeText();
+          }, 2000);
+        }
+      }, 50);
+    } else {
+      currentTextIndex = 0; // Restart animation
+      setTimeout(typeText, 2000);
+    }
+  }
+
+  typeText();
+
+  // Overlay Effect
+  const profileWrapper = document.querySelector('.profile-img-wrapper');
+  const overlay = profileWrapper.querySelector('.overlay');
+
+  profileWrapper.addEventListener('mouseenter', () => {
+    overlay.style.opacity = '1';
+  });
+
+  profileWrapper.addEventListener('mouseleave', () => {
+    overlay.style.opacity = '0';
+  });
+
+document.body.addEventListener("mousemove", evt => {
+  const mouseX = evt.clientX;
+  const mouseY = evt.clientY;
+  
+  gsap.set(".cursor", {
+    x: mouseX,
+    y: mouseY
+  })
+  
+  gsap.to(".shape", {
+    x: mouseX,
+    y: mouseY,
+    stagger: -0.1
+  })
+})
+
+  
+  
 
 })();

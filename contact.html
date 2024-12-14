@@ -45,10 +45,10 @@
       <ul>
         <li><a href="index.html" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="index.html/#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="resume.html"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
         <li><a href="portfolio.html"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="contact.html"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+        <li><a href="resume.html#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+       
       </ul>
     </nav>
 
@@ -56,24 +56,63 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <Section class="description">
-      <!-- bg design -->
-      <div class="cotainer">
-          <div class="area">
-            <p class="aboutMe aria-label">Resume</p>
+     
+      <section class="one">
+        <div class="row align-items-center">
+          <div class="animated-title">
+            <div class="text-top">
+              <div>
+                <span>Let's get in touch to talk</span>
+                <span>about your project, and see how</span>
+              </div>
+            </div>
+            <div class="text-bottom">
+              <div>I can help you reach success!</div>
+            </div>
           </div>
-         
-      </div>
-  </Section><!-- /Hero Section -->
+      </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact me </h2>
-        
+        <h2>You can find me...  </h2>
+
+        <section id="contactB" class="contact section">
+       
+         
+          <div class="container" data-aos="fade" data-aos-delay="100">
+            <div class="row gy-4 justify-content-between">
+              <!-- Address Info -->
+              <div class="col-lg-4 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0 me-3"></i>
+                <div>
+                  <h5>Address</h5>
+                  <p>Dublin D04, Ireland</p>
+                </div>
+              </div>
+          
+              <!-- Phone Info -->
+              <div class="col-lg-4 d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0 me-3"></i>
+                <div>
+                  <h5>Phone</h5>
+                  <p>0830081391</p>
+                </div>
+              </div>
+          
+              <!-- Email Info -->
+              <div class="col-lg-4 d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0 me-3"></i>
+                <div>
+                  <h5>Email</h5>
+                  <p>nafnuster@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>        
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade" data-aos-delay="100">
@@ -100,8 +139,9 @@
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdWhbwuZtHbpZAmc-FzmLpqpETnrBTH7g&callback=initMap" async defer></script>
           </div>
-          <div class="col-lg-8">
-              <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #008296; line-height: 1.6; margin-top: 30px; margin-left: 30px;">
+          <div class="col-lg-8" data-aos="fade-left" data-aos-delay="300">
+            <a class="rolling-text">
+              <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #05469a; line-height: 1.6; margin-top: 30px; margin-left: 30px;">
                 I live here in Dublin, Ireland! 🇮🇪😊 
                 <Br></Br>               
                 Have questions or need assistance choosing the perfect network?  I'd love to hear from you! 💬
@@ -112,28 +152,61 @@
                 <br><br>
 
               </p>
-            <!-- Download CV Button -->
-            <a  style="margin-left: 30px;" href="https://drive.google.com/file/d/1Zw_wUiJIyFxp2C22aykfAZ1XrMpV-XSr/view?usp=sharing" class="btn btn-primary" download="My_CV">
-              Download CV
-            </a>
+            
+            </a>  
+            
 
-            <!-- Contact form -->
-            <a  style="margin-left: 50px;" class="btn btn-secondary">
-              Let's chat!
-            </a>
-        </div>
-
-      </div>
+            <!-- Button trigger modal -->
+            <section id="contactform" class="contact section py-5">
+              <div class="container text-center">
+                 <!-- Download CV Button -->
+                  <a  style="margin-left: 10px;" href="https://drive.google.com/file/d/1Zw_wUiJIyFxp2C22aykfAZ1XrMpV-XSr/view?usp=sharing" class="btn btn-primary" download="My_CV">
+                  Download CV
+                  </a>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#contactModal">
+                  Drop a message
+                </button>
+              </div>
+            </section>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Fill the form, it's easy!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="forms/contact.php" method="post" class="php-email-form">
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="name" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" name="email" class="form-control" id="email" required>
+                      </div>
+                      
+                      <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" rows="5" class="form-control" id="message" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
 
     </section><!-- /Contact Section -->
-
 
   
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
     <div class="container">
-      <h3 class="sitename">Let's connect</h3>
+      <h3 class="sitename">Say hello!</h3>
       <p>nafnuster@gmail.com </p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://twitter.com/nafnuster?s=09"><i class="bi bi-twitter-x"></i></a>
