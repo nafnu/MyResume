@@ -15,7 +15,7 @@ This project demonstrates my learning in various programming languages by creati
 ### Contextualizing
 
 #### Initial Ideas
-In today's competitive landscape, having a personal website is essential across industries. Initially, I struggled to define how to present my CV. At first, I considered creating a single, large HTML document, experimenting with animations using JavaScript and React. However, my limited proficiency with these technologies made it challenging. After reevaluating, I realized I excel at organizing tasks, which helped me focus on presenting my CV in a more professional light. I decided to tailor my CV towards project management, implementing simple CSS animations and using Bootstrap for more complex ones.
+In today's competitive landscape, having a personal website is essential across industries. Initially, I struggled to define how to present my CV. At first, I considered creating a single, large HTML document, experimenting with animations using JavaScript and React. However, my limited proficiency with these technologies made it challenging. After re-evaluating, I realized I excel at organizing tasks, which helped me focus on presenting my CV in a more professional light. I decided to tailor my CV towards project management, implementing simple CSS animations and using Bootstrap for more complex ones.
 
 #### Layout
 The design focuses on presenting content in animated blocks rather than long text blocks, making the website visually engaging. Responsiveness was a key factor, ensuring the site looked great across devices. The layout divides the website into four sections:
@@ -32,7 +32,7 @@ I opted for a bottom navigation bar, as it allowed the central content to take p
 • CSS
 
 #### Colour
-Choosing the right color scheme for a resume depends on the profession and the impression you want to convey. Since my CV targets IT professionals, I used a professional and neutral palette with black, white, and a third color (blue or pink). White was chosen as the dominant color for sophistication, while blue serves as the secondary color, used to highlight key sections. The design reflects a personality that is serious, confident, and determined—traits I associate with professionalism in the IT sector.
+Choosing the right colour scheme for a resume depends on the profession and the impression you want to convey. Since my CV targets IT professionals, I used a professional and neutral palette with black, white, and a third colour (blue or pink). White was chosen as the dominant colour for sophistication, while blue served as the secondary colour, used to highlight key sections. The design reflects a personality that is serious, confident, and determined—traits I associate with professionalism in the IT sector.
 
 #### Challenges Faced and Solutions
 One significant challenge was using JavaScript for dynamic elements. I encountered logic issues, and given the limited time I had to master the language, I decided to remove the JavaScript implementations. The website now relies solely on CSS for interactivity, with only the necessary Bootstrap libraries for functionality.
@@ -42,15 +42,14 @@ Another issue arose with the navigation bar, where I was linking to incompatible
 
 ### References and adaptation explanations
 • Simple CSS Tutorial (W3Schools): This tutorial was instrumental in my learning process, from basic concepts to advanced CSS techniques.
-• Color Scheme Generator (MyColor.Space): I used this tool to select a color palette for my CV.
+• Color Scheme Generator (MyColor.Space): I used this tool to select a colour palette for my CV.
 • Simple Text Animations Using HTML & CSS (YouTube): This video helped me implement text animations on my website.
 • Bootstrap Components (Bootstrap Documentation): I used several Bootstrap components with customizations to enhance the site's functionality and appearance. 
 
 
 ## User testing
 Two individuals tested my website: one was a relative with a degree in Computer Science, and the other was a friend who has a UX/UI course.
-
-• The first tester, the Computer Science graduate, praised the homepage design, particularly the smooth flow of content when the site was resized. He appreciated how the layout adapted seamlessly, providing a pleasant user experience.
+• The first tester, a Computer Science graduate, praised the homepage design, particularly the smooth flow of content when the site was resized. He appreciated how the layout adapted seamlessly, providing a pleasant user experience.
 • The second tester, the copywriter, highlighted the advantage of dividing the content into distinct sections, which made the website much more readable compared to a dense block of text.
 Both testers reported no major issues with the site.
 
