@@ -6,62 +6,57 @@
 This second CA, it is required to build an interactive portfolio website using Bootstrap.
 
 ## Running the Project
-
+You can view the project at: https://nafnu.github.io/MyResume/ 
 
 ## Project Summary
-In this project, I can demonstrate the level of learning of different programming languages.I will be programming a semantic HTML and CSS website with a responsive layout. The interactive resume can be seen as the presentation of our career path, the information set with skills so that the recruiter looks interested.
+This project demonstrates my learning in various programming languages by creating a semantic HTML and CSS website with a responsive layout. The interactive resume serves as a digital representation of my career, highlighting key skills to engage recruiters effectively.
 
 ## Development Process
 ### Contextualizing
 
 #### Initial Ideas
-These days, everyone, in every industry, needs a website to be competitive. <br> It was very difficult for me to develop a clear idea of how to present my CV. At first, I did not know to which IT area to direct the information.<br>The initial idea was create to just one big HTML document, and I started doing random animations with Javascript and React, but this was terribly difficult due to the very low handling I have at the moment. <br> I sat down and reconsidered how to do the project. And I discovered that I am good at posing and organizing tasks. <br> I decided to orient my CV to project management in, more professional way, therefore I made simple animations with CSS and Boostrap management for the more complicated animations.
+In today's competitive landscape, having a personal website is essential across industries. Initially, I struggled to define how to present my CV. At first, I considered creating a single, large HTML document, experimenting with animations using JavaScript and React. However, my limited proficiency with these technologies made it challenging. After reevaluating, I realized I excel at organizing tasks, which helped me focus on presenting my CV in a more professional light. I decided to tailor my CV towards project management, implementing simple CSS animations and using Bootstrap for more complex ones.
 
 #### Layout
-The main idea behind this design was blocks of animated text content rather than a large amount of continuous content, which gave the website much more than was previously unavailable. <br>Responsiveness is one of the characteristics that I take into account, and layers that were important that can be easily seen on screens of all sizes were the key, as were some basic ideas that are highly effective for their information-rich simplicity.
-I added in basic styles to edit the body, header, and footer such as font family, colour, align, margin, etc.<br>
-A top or bottom navigation bar allows items in the center to carry more visual weight than all items on the side of the fold, in fact, it conserves more vertical page space than left navigation. I decided to use horizontal navigation at the bottom because of my first image on the home page - my items in the center, descending a mountain, it goes with the flow of the idea from top to bottom visualizing.
-
-We can divide the site into 4 small parts:
-1. 
-2. 
-3. 
-4. 
+The design focuses on presenting content in animated blocks rather than long text blocks, making the website visually engaging. Responsiveness was a key factor, ensuring the site looked great across devices. The layout divides the website into four sections:
+1. About Me
+2. Portfolio
+3. Resume
+4. Contact Me
+I opted for a bottom navigation bar, as it allowed the central content to take precedence visually. This decision aligned with the design concept, symbolizing a descent down a mountain as viewed in the homepage image.
 
 #### Libraries and Frameworks used
-• Bootstrap 
+• Bootstrap
+• HTML
 • Javascript
 • CSS
 
 #### Colour
-What are the best colors for a resume? There is no simple answer to this question. I considering that resume colors depend on the profession you are applying for and the impression you want to make. My CV was oriented towards project management, therefore more professional and neutral. Using black, white, and a third color (like blue, pink, or yellow) is a safe color scheme for any resume. Try to make a dominant color black, secondary white, and use the third to highlight the important parts. <br>
-Also according to what was studied in class, black is the color of sophistication and elegance. I wanted my CV to have that detail and be connected with a personality with the following characteristics: serious, confident, strong, determined, emotionally contained, and introverted.
+Choosing the right color scheme for a resume depends on the profession and the impression you want to convey. Since my CV targets IT professionals, I used a professional and neutral palette with black, white, and a third color (blue or pink). White was chosen as the dominant color for sophistication, while blue serves as the secondary color, used to highlight key sections. The design reflects a personality that is serious, confident, and determined—traits I associate with professionalism in the IT sector.
 
-#### Issues Faced/Solved
-Many of the interactions that I was doing with Javascript to create elements dynamic were unsuccessful. There were a number of common JavaScript problems that I had, such as logic problems. With the lack of personal time to do a completed online tutorial to learn an advanced level of this language, and just with the knowledge of basic syntax, I decided to delete JavaScript coding done. Therefore, the only JavaScript connections in this project are the set of libraries that Bootstrap needs in order to work, all the rest of the implementations were handling by CSS language.<br>
-My second big problem was the navigation bar, my connections with Bootstrap were different versions. After a consultation with the lecturer, pointed the mistake. I linked with the different versions.
+#### Challenges Faced and Solutions
+One significant challenge was using JavaScript for dynamic elements. I encountered logic issues, and given the limited time I had to master the language, I decided to remove the JavaScript implementations. The website now relies solely on CSS for interactivity, with only the necessary Bootstrap libraries for functionality.
+
+Another issue arose with the navigation bar, where I was linking to incompatible Bootstrap versions. After discussing this with my lecturer, I corrected the versions, and the navigation bar now functions as intended.
 
 
 ### References and adaptation explanations
-* Simple CSS Tutorial. Available at: https://www.w3schools.com/csS/default.asp (Accessed: Apr 17, 2021).
-This was the main motor of my project. I did almost all the tutorials, from refresh the learn in class into real practice coding to advanced level. 
-* Colour Schema. Available at: https://mycolor.space/?hex=%23CC016B&sub=1 (Accessed: Apr 14, 2021).
-I used this link for colour reference.
-* Simple Text Animation Just By Using HTML & CSS. Available at: https://www.youtube.com/watch?v=Syg_9iB1vco (Accessed: Apr 11, 2021).
-With different videos similar to this and in conjunction with the tutorial made, make the text animations.
-* Bootstrap Components. Available at: https://getbootstrap.com/docs/5.0/components/accordion/ (Accessed: Apr 12, 2021).
-Very useful tool. I also added some specific customize and little finals touch in all of them that I used. 
+• Simple CSS Tutorial (W3Schools): This tutorial was instrumental in my learning process, from basic concepts to advanced CSS techniques.
+• Color Scheme Generator (MyColor.Space): I used this tool to select a color palette for my CV.
+• Simple Text Animations Using HTML & CSS (YouTube): This video helped me implement text animations on my website.
+• Bootstrap Components (Bootstrap Documentation): I used several Bootstrap components with customizations to enhance the site's functionality and appearance. 
 
 
 ## User testing
-* Two people tested my website. The first person was a relative who had a degree in Computer Science and the other was a friend who is a copywriter.
-* The first person likes the home page a lot, he really enjoys it on the website. He said that not problems when reducing the size of the website and the content of a website flow a lot more smoothly creating a gradual informative experience.
-* The second person said the way to divide the content into "differents parts" [layout for us] instead of just making a giant wall of text; it makes it much more readable the website.
-* Both users reported no big errors about the site. 
+Two individuals tested my website: one was a relative with a degree in Computer Science, and the other was a friend who has a UX/UI course.
+
+• The first tester, the Computer Science graduate, praised the homepage design, particularly the smooth flow of content when the site was resized. He appreciated how the layout adapted seamlessly, providing a pleasant user experience.
+• The second tester, the copywriter, highlighted the advantage of dividing the content into distinct sections, which made the website much more readable compared to a dense block of text.
+Both testers reported no major issues with the site.
 
 ## Considerations
-I committed a lot of mistakes in the formatting, naming conventions, and commenting. I have a lot of improvement to be a good programmer in Front Web. However, I felt very proud of this job. Six months before, I would think never will be available to reach develop a site. With the comments of the users, I can say that I get part of the purpose of this project, it’s to arrange the content on your website in a pleasing and easy-to-understand way to improve the user’s experience and ease of use when on the website. It was a lot of time invert to learn new tools, and in life everything is useful. Mysteries paths! I know I oriented my CV to project management, but, this project created a sparkle new area to go.
+While I made some mistakes with formatting, naming conventions, and commenting, I am proud of the final product. Six months ago, I wouldn’t have believed I could develop a website like this. Feedback from users shows that I met the main goal of the project: organizing content in a way that is both visually appealing and easy to understand, improving the user experience. This project not only helped me improve my technical skills but also sparked an interest in areas I hadn't previously considered, such as project management.
 
 ## GDPR
-The images used were personal pictures.<br>
-The logos of social media were obtained from Bootstrap Icons<br>
+• The images used on the website are personal photos.
+• The social media logos are sourced from Bootstrap Icons.
