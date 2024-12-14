@@ -23,6 +23,7 @@ The design focuses on presenting content in animated blocks rather than long tex
 2. Portfolio
 3. Resume
 4. Contact Me
+   
 I opted for a bottom navigation bar, as it allowed the central content to take precedence visually. This decision aligned with the design concept, symbolizing a descent down a mountain as viewed in the homepage image.
 
 #### Libraries and Frameworks used
