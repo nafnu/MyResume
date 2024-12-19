@@ -839,13 +839,11 @@ section,
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 50px;
-  font-size: 24px;
-  top: calc(50% - 14px);
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  transition: 0.3s;
-  line-height: 0;
+  position: relative; /* Ensure links position based on their natural flow */
+  display: inline-block; /* Places them inline */
+  margin-right: 10px; /* Adds spacing between links */
+  font-size: 24px; /* Adjust font size for consistency */
+  vertical-align: middle; /* Aligns links vertically */
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -854,8 +852,7 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
-  right: 14px;
-  font-size: 28px;
+  font-size: 24px; /* Matches font size for uniformity */
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -1548,7 +1545,7 @@ transform: translate(0, -100%);
   background: #ececea;  
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
   width: 100%;
-  height:50vh;
+  height:65vh;
      
 }
 

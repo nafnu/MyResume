@@ -1,0 +1,2 @@
+## Running the Project
+You can view the project at: https://nafnu.github.io/MyResume/ 
